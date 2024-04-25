@@ -1,12 +1,14 @@
 
 
-const h2 = document.querySelector(`h2`);
+const h2 = document.querySelector(`#toss`);
 const image = document.querySelector(`img`);
 
 function toss(head , tails){
 
 
     const num = Math.ceil(Math.random(head , tails)*2);
+    console.log(num);
+
 
     if(num < 1){
         console.log(`won`);
@@ -23,9 +25,15 @@ function toss(head , tails){
 
 if(num === 1){
 
-    image.src = 'https://en.numista.com/catalogue/photos/pakistan/424-original.jpg'
+    image.src = ''
     
 }else{
 
-    image . src = `https://www.foreigncurrencyandcoin.com/wp-content/uploads/2018/12/products-18814.jpg`
+    image . src = ``
 }
+
+
+
+
+
+

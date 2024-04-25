@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#logo{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.main-div{
+    justify-content: center;
+}
+
+.main-btn{
+    /* text-align: center; */
+    /* align-items: center; */
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#toss{
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
